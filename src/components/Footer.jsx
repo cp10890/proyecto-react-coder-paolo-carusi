@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Footer = () => {
     return (
         <div className="container py-5">
@@ -34,6 +32,7 @@ const Footer = () => {
                             src="images/Logo-red.png"
                             alt="Logo"
                             width="40px"
+                            className="mx-2"
                         />
                         Life UP Game Store
                     </p>

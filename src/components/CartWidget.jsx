@@ -1,5 +1,3 @@
-import React from 'react';
-
 const CartWidget = () => {
     return (
         <button type="button" className="btn position-relative">

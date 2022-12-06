@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import CartWidget from './CartWidget';
 import SearchWidget from './SearchWidget';
 
@@ -9,10 +9,7 @@ const NavBar = () => {
                 <div className="col-md-8 d-flex align-items-left">
                     <nav className="navbar navbar-expand-lg">
                         <div className="container-fluid">
-                            <a
-                                className="navbar-brand text-center"
-                                href="index.html"
-                            >
+                            <Link className="navbar-brand text-center" to="/">
                                 <p>
                                     <img
                                         src="images/Logo-red.png"
@@ -20,7 +17,7 @@ const NavBar = () => {
                                         width="100px"
                                     />
                                 </p>
-                            </a>
+                            </Link>
                             <button
                                 className="navbar-toggler"
                                 type="button"
@@ -38,28 +35,37 @@ const NavBar = () => {
                             >
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                        <a
+                                        <NavLink
                                             className="nav-link"
                                             aria-current="page"
-                                            href="#"
+                                            to={'/category/juegos'}
                                         >
                                             JUEGOS
-                                        </a>
+                                        </NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">
+                                        <NavLink
+                                            className="nav-link"
+                                            to={'/category/consolas'}
+                                        >
                                             CONSOLAS
-                                        </a>
+                                        </NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">
+                                        <NavLink
+                                            className="nav-link"
+                                            to={'/category/accesorios'}
+                                        >
                                             ACCESORIOS
-                                        </a>
+                                        </NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">
+                                        <NavLink
+                                            className="nav-link"
+                                            to={'/category/preventas'}
+                                        >
                                             PREVENTAS
-                                        </a>
+                                        </NavLink>
                                     </li>
                                 </ul>
                             </div>
