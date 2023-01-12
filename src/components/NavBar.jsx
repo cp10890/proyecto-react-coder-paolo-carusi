@@ -1,6 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
 import CartWidget from './CartWidget';
-import SearchWidget from './SearchWidget';
 
 const NavBar = () => {
     return (
@@ -12,7 +11,7 @@ const NavBar = () => {
                             <Link className="navbar-brand text-center" to="/">
                                 <p>
                                     <img
-                                        src="images/Logo-red.png"
+                                        src="/images/Logo-red.png"
                                         alt="Logo Life UP Game Store"
                                         width="100px"
                                     />
@@ -72,10 +71,7 @@ const NavBar = () => {
                         </div>
                     </nav>
                 </div>
-                <div className="col-md-3 d-flex align-items-center justify-content-end">
-                    <SearchWidget />
-                </div>
-                <div className="col-md-1 d-flex align-items-center justify-content-end">
+                <div className="col-md-4 d-flex align-items-center justify-content-end">
                     <CartWidget />
                 </div>
             </div>
