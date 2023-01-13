@@ -22,3 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Ignore the json files
+/src/components/json/stores.json
+/src/components/json/products.json

@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "name": "God of War Ragnarok PS5",
         "image": "https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/1/_/1_1__5.jpg",
         "price": 74990,
@@ -9,7 +8,6 @@
         "category": "juegos"
     },
     {
-        "id": 2,
         "name": "Call of Duty: Modern Warfare II PS5",
         "image": "https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/u/n/untitled-1_2_3.jpg",
         "price": 69990,
@@ -18,7 +16,6 @@
         "category": "juegos"
     },
     {
-        "id": 3,
         "name": "Deep Rock Galactic PS4",
         "image": "https://i.ebayimg.com/images/g/N88AAOSweyxh1nIC/s-l500.png",
         "price": 29990,
@@ -27,7 +24,6 @@
         "category": "juegos"
     },
     {
-        "id": 4,
         "name": "FIFA 23 PS5/Xbox Series X/S",
         "image": "https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/u/n/untitled-3_2_4.jpg",
         "price": 84990,
@@ -36,7 +32,6 @@
         "category": "juegos"
     },
     {
-        "id": 5,
         "name": "F1 22 PS5/Xbox Series X/S",
         "image": "https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/1/_/1_1_1.jpg",
         "price": 79990,
@@ -45,7 +40,6 @@
         "category": "juegos"
     },
     {
-        "id": 6,
         "name": "Consola Xbox Series X",
         "image": "https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/8/8/8898426407480_4.png",
         "price": 599990,
@@ -54,7 +48,6 @@
         "category": "consolas"
     },
     {
-        "id": 7,
         "name": "Consola Xbox Series S",
         "image": "https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/8/8/889842651331-1.jpg",
         "price": 349990,
@@ -63,7 +56,6 @@
         "category": "consolas"
     },
     {
-        "id": 8,
         "name": "Consola PlayStation 5",
         "image": "https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/p/l/playstation5portada_1.jpg",
         "price": 749990,
@@ -72,7 +64,6 @@
         "category": "consolas"
     },
     {
-        "id": 9,
         "name": "Consola Nintendo Switch - OLED",
         "image": "https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/0/4/045496883393.jpg",
         "price": 429990,
@@ -81,7 +72,6 @@
         "category": "consolas"
     },
     {
-        "id": 10,
         "name": "Dualsense Edición God of War Ragnarok",
         "image": "https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/7/1/7117195552230.jpeg",
         "price": 79990,
@@ -90,7 +80,6 @@
         "category": "accesorios"
     },
     {
-        "id": 11,
         "name": "Control Inalámbrico Xbox Carbon Black",
         "image": "https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/8/8/8898426547760_1.jpeg",
         "price": 64990,
@@ -99,7 +88,6 @@
         "category": "accesorios"
     },
     {
-        "id": 12,
         "name": "Nintendo Switch Joy-Con - Gris",
         "image": "https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/0/4/0454965901230_2.jpeg",
         "price": 99990,
@@ -108,7 +96,6 @@
         "category": "accesorios"
     },
     {
-        "id": 13,
         "name": "Preventa Hogwarts Legacy - PS5/Xbox Series X/S",
         "image": "https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/u/n/untitled-5_2.jpg",
         "price": 64990,

@@ -70,13 +70,13 @@ const ItemCount = ({ stock, onAdd }) => {
                         <div>
                             <button
                                 type="button"
-                                className="btn btn-outline-danger mb-2"
+                                className="btn btn-danger mb-2"
                                 onClick={() => addToCart(count)}
                             >
                                 Agregar al carrito
                             </button>
-                            <Link to="/cart" className="btn btn-outline-danger">
-                                Finalizar compra
+                            <Link to="/cart" className="btn btn-danger">
+                                Ir al carrito
                             </Link>
                         </div>
                     ) : (
@@ -84,8 +84,11 @@ const ItemCount = ({ stock, onAdd }) => {
                             <p className="text-danger">
                                 No hay stock disponible.
                             </p>
-                            <Link to="/cart" className="btn btn-outline-danger">
+                            <Link to="/cart" className="btn btn-danger mb-2">
                                 Finalizar compra
+                            </Link>
+                            <Link to="/" className="btn btn-danger mb-2">
+                                Volver al inicio
                             </Link>
                         </div>
                     )}

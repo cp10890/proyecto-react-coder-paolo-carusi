@@ -101,9 +101,12 @@ const Cart = () => {
                                     <b>${cartPrice()}</b>
                                 </td>
                                 <td className="text-end">
-                                    <button className="btn btn-danger">
+                                    <Link
+                                        to={'/checkout'}
+                                        className="btn btn-danger"
+                                    >
                                         Finalizar Compra
-                                    </button>
+                                    </Link>
                                 </td>
                             </tr>
                         </tbody>
