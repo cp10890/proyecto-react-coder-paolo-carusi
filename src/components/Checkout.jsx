@@ -1,6 +1,14 @@
 import { useContext, useState } from 'react';
 import { CartContext } from './context/CartContext';
-import { getFirestore, collection, addDoc } from 'firebase/firestore';
+import {
+    getFirestore,
+    collection,
+    addDoc,
+    getDoc,
+    doc,
+    updateDoc,
+} from 'firebase/firestore';
+import { Navigate } from 'react-router-dom';
 const Checkout = () => {
     const { cart, cartPrice, clear } = useContext(CartContext);
     const [name, setName] = useState('');
@@ -35,6 +43,16 @@ const Checkout = () => {
         const orderCollection = collection(db, 'orders');
         addDoc(orderCollection, newOrder).then((docRef) => {
             setOrderId(docRef.id);
+
+            cart.forEach((item) => {
+                let product = doc(db, 'products', item.id);
+                getDoc(product).then((doc) => {
+                    updateDoc(product, {
+                        stock: doc.data().stock - item.quantity,
+                    });
+                });
+            });
+
             clear();
         });
     };
@@ -148,13 +166,8 @@ const Checkout = () => {
                 </div>
                 <div className="row m-5">
                     <div className="col text-center">
-                        {orderId ? (
-                            <div className="alert alert-danger">
-                                Muchas gracias por su compra! Su número de orden
-                                es: <b>{orderId}</b>. Su comprobante de compra
-                                será enviado a su email dentro de las próximas
-                                24h.
-                            </div>
+                        {orderId !== '' ? (
+                            <Navigate to={'/order/' + orderId} />
                         ) : (
                             ''
                         )}

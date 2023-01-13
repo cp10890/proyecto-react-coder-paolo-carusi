@@ -10,6 +10,7 @@ import CartContextProvider from './components/context/CartContext';
 import Cart from './components/Cart';
 import Tiendas from './components/Tiendas';
 import Checkout from './components/Checkout';
+import Order from './components/Order';
 
 function App() {
     return (
@@ -36,6 +37,7 @@ function App() {
                     <Route path="/item/:id" element={<ItemDetailContainer />} />
                     <Route path="/cart" element={<Cart />} />
                     <Route path="/checkout" element={<Checkout />} />
+                    <Route path="/order/:id" element={<Order />} />
                     <Route path="/tiendas" element={<Tiendas />} />
                     <Route path="*" element={<Error404 />} />
                 </Routes>
